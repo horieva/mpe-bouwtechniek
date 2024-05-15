@@ -47,7 +47,7 @@
     checkVersion = false
 
 [home]
-    # sections = ["posts"]
+    sections = ["dummy"]
     fullCover = false
     centerHeadline = true
     style = ""
