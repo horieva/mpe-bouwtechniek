@@ -19,8 +19,8 @@
     </div>
 </div>
 
-<script>
-    import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+<script type="module">
+    import PhotoSwipeLightbox from 'js/photoswipe/photoswipe-lightbox.umd.min.js';
 
 const lightbox = new PhotoSwipeLightbox({
   // may select multiple "galleries"
@@ -30,7 +30,7 @@ const lightbox = new PhotoSwipeLightbox({
   children: 'a',
 
   // setup PhotoSwipe Core dynamic import
-  pswpModule: () => import('/photoswipe/photoswipe.esm.js')
+  pswpModule: () => import('js/photoswipe/photoswipe.umd.min.js')
 });
 lightbox.init();
 </script>
