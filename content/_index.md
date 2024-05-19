@@ -27,4 +27,4 @@ Resourcefulness is another hallmark of our company. We believe in maximising the
 
 When you choose MPE Bouwtechniek, you are choosing a reliable partner who will work closely with you every step of the way. From the initial consultation to the final touches, our dedicated team of professionals will be there to listen to your needs, offer expert advice, and bring your vision to life.  We take pride in our commitment to customer satisfaction and building long-lasting relationships with our clients. Your trust is our most valuable asset, and we will go above and beyond to earn it. Let us be the construction company that turns your dreams into reality.
 
-Contact us today and let's begin this exciting journey of remodeling or expanding your home or office with MPE Bouwtechniek bv.
+Contact us today and let's begin this exciting journey of remodeling or expanding your home or office with MPE Bouwtechniek BV. 

@@ -29,7 +29,7 @@
   [[main]]
     parent = "Services"
     name = "Kitchen Renovation"
-    pageRef = "/services/#kitchen"
+    pageRef = "/services/#kitchen-renovation"
     weight = 24
 
   [[main]]
@@ -41,13 +41,13 @@
   [[main]]
     parent = "Services"
     name = "Flooring and underfloor heating"
-    pageRef = "/services/#flooring"
+    pageRef = "/services/#floors-and-underfloor-heating"
     weight = 26
 
   [[main]]
     parent = "Services"
-    name = "Windows"
-    pageRef = "/services/#windows"
+    name = "Windows & Doors"
+    pageRef = "/services/#windows-and-doors"
     weight = 26
 
 [[main]]

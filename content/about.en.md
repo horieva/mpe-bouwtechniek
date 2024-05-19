@@ -2,6 +2,7 @@
 title: About Us
 description: ""
 ---
+{{< image src="/img/about/about-1.jpeg" ratio="4x3" class="rounded img-thumbnail float-end lana-right" >}}
 Welcome to MPE Bouwtechniek, where craftsmanship meets innovation in the realm of construction. With a legacy spanning over two decades, MPE Bouwtechniek has solidified its position as a leading force in the construction industry, renowned for excellence and reliability.
 
 At MPE Bouwtechniek, we understand that every building tells a story. Whether it’s a towering skyscraper, a sleek residential complex, or a state-of-the-art industrial facility, each project is a testament to our dedication to quality and our commitment to exceeding client expectations.
