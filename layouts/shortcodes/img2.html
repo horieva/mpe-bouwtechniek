@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}}
+
+{{- with .Parent -}}
+  <a href="{{ $src }}" class="spotlight gallery-thumbnail"></a>
+    <img src="{{ $src }}" class="spotlight">
+{{- else -}}
+  <img src="{{ $src }}" class="spotlight">
+{{- end -}}
+

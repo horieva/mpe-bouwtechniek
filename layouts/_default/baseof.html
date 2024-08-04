@@ -34,6 +34,8 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
     <head>
         {{ block "head" . }}{{ end -}}
+        <link rel="preload" href="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js" as="script">
+
     </head>
 
     <body>
@@ -72,5 +74,7 @@
         {{- partial "footer/toast-container.html" . -}}
         {{- partialCached "footer/scripts.html" (dict "header" false "page" . "core" true) }}
         {{- partial "footer/optional-scripts.html" . -}}
+        <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js" defer></script>
+
     </body>
 </html>

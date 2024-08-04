@@ -33,7 +33,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
       './_vendor/github.com/twbs/bootstrap/scss/_tooltip.scss',
       './_vendor/github.com/twbs/bootstrap/scss/_transitions.scss',
       './_vendor/github.com/twbs/bootstrap/scss/_utilities.scss',
-      '../assets/scss/theme/photoswipe.scss'
     ])
   ]
 })

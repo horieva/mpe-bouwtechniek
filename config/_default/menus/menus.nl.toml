@@ -51,11 +51,6 @@
     weight = 26
 
 [[main]]
-  name = "Over ons"
-  url = "/about/"
-  weight = 30
-
-[[main]]
   name = "Contact"
   url = "/contact/"
   weight = 50

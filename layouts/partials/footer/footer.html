@@ -1,5 +1,13 @@
-<footer class="container-fluid footer text-center p-3">
-    <div class="container-xxl text-center">
+
+
+
+
+<div class="container footer p-3">
+  <footer class="row py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-start mb-3 link-dark text-decoration-none">
+        {{- partial "assets/image.html" (dict "url" "/img/mpe-logo.png" "mode" true "wrapper" "w-100" "title" .Params.title) -}}
+      </a>
         <small>
             {{- $copyright := printf "%s © %s %s %s." (T "copyright") (dateFormat "2006" now) .Site.Title (T "rights") }}
             {{ cond (gt (len .Site.Copyright) 0) .Site.Copyright $copyright }}
@@ -10,4 +18,31 @@
             {{ end }}
         </small>
     </div>
-</footer>
+
+    <div class="col mb-3">
+
+    </div>
+
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="/services" class="nav-link p-0 text-muted">Services</a></li>
+        <li class="nav-item mb-2"><a href="/about" class="nav-link p-0 text-muted">About</a></li>
+        <li class="nav-item mb-2"><a href="/projects" class="nav-link p-0 text-muted">Projects</a></li>
+        <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="/services/#renovations" class="nav-link p-0 text-muted">Renovations</a></li>
+        <li class="nav-item mb-2"><a href="/services/#extensions" class="nav-link p-0 text-muted">Extensions</a></li>
+        <li class="nav-item mb-2"><a href="/services/#bathroom-renovations" class="nav-link p-0 text-muted">Bathroom Renovations</a></li>
+        <li class="nav-item mb-2"><a href="/services/#kitchen-renovation" class="nav-link p-0 text-muted">Kitchen Renovation</a></li>
+        <li class="nav-item mb-2"><a href="/services/#electricity" class="nav-link p-0 text-muted">Electicity</a></li>
+        <li class="nav-item mb-2"><a href="/services/#floors-and-underfloor-heating" class="nav-link p-0 text-muted">Flooring and underfloor heating</a></li>
+        <li class="nav-item mb-2"><a href="/services/#windows-and-doors" class="nav-link p-0 text-muted">Windows and Doors</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>

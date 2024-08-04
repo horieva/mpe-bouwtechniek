@@ -3,9 +3,19 @@
 
 {{ .Render "single/header" }}
 
+
 {{- if and .Site.Params.navigation.toc .Params.includeToc | default true -}}
     <div class="d-{{ $breakpoint.current }}-none pb-5">{{ partial "assets/toc-dropdown.html" (dict "page" .) }}</div>
 {{- end -}}
+
 {{ .Render "single/body" }}
+
+{{ range .Resources.Match "gallery/**" }}
+  <a class="spotlight" href="{{ .RelPermalink }}">
+    {{ with .Fill "200x200 q80 " }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ .Title }}">
+    {{ end }}
+  </a>
+{{ end }}
 
 {{ .Render "single/footer" }}

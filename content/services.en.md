@@ -171,16 +171,15 @@ __Disadvantages:__
 1. Aesthetics: Plastic windows may not offer the same visual appeal as hardwood or aluminum, as some people find the appearance less desirable.
 2. Limited Lifespan: Plastic windows may have a shorter lifespan compared to hardwood or aluminum, as they can become brittle over time.
 
-<div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+<div class="container my-5">
+    <div class="row align-items-center rounded-3 border shadow-lg">
+      <div class="col-12 pt-4">
+        <div class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">CALL</button>
+          <button type="button" class="btn btn-warning btn-lg px-4">REQUEST QUOTE</button>
         </div>
       </div>
     </div>
   </div>
+
 
